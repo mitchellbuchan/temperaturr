@@ -6,6 +6,7 @@
 get_celsius <- function(fah)
 {
   return(round(((fah - 32) * 5 / 9), digits = 2))
+ #could format the returned data better
 }
 
 
