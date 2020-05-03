@@ -71,4 +71,5 @@ weather_comparison <- function(latitude = lat, longitude = lon, api_key = apikey
 get_celsius <- function(fah)
 {
   return(round(((fah - 32) * 5 / 9), digits = 2))
+  #Would be nice to have a degree symbol or words instead of just the number
 }
